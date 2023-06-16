@@ -53,7 +53,6 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background: var(--second-pege-background); */
 }
 
 .caption {
@@ -600,9 +599,7 @@ img {
   transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
-/* .items-row-item:focus .row-lead-text {
-  transform: translateY(0%);
-} */
+
 .items-row-caption {
   font-weight: 500;
   font-size: 20px;
@@ -668,6 +665,7 @@ img {
 }
 .crosssvg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: currentColor;
 }
 
 .crosssvg:hover,
